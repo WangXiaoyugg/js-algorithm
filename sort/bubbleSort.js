@@ -1,3 +1,4 @@
+// 最大值冒泡到右侧
 const bubbleSort = (arr) => {
     // 最外层控制遍历次数
     for(let i=arr.length - 1; i>0; i--) {
