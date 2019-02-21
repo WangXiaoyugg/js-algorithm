@@ -4,8 +4,8 @@ const bubbleSort = (arr) => {
     for(let i=arr.length - 1; i>0; i--) {
         // 内层两两比较大小
         for(let j=0;j<i;j++) {
-            let tmp = arr[j]
-            if(arr[j+1] < tmp) {
+            if(arr[j+1] < arr[j]) {
+                let tmp = arr[j]
                 arr[j] = arr[j+1]
                 arr[j+1] = tmp;
             }
