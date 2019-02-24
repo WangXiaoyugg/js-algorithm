@@ -5,7 +5,8 @@ learn algorithm, and solve some easy exercises
 
 ### stack
 - 682
-
+- 232
+  
 ### sort
 - 41
 - 164
